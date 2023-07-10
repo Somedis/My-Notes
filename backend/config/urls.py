@@ -20,6 +20,8 @@ urlpatterns = [
          name='token_verify'),
 
     path('api/users/', include('userApi.urls')),
+
+    path('api/', include('api.urls')),
 ]
 
 if settings.DEBUG:

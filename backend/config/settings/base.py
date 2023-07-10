@@ -48,7 +48,8 @@ THIRD_PARTY = [
 ]
 
 LOCAL_APPS = [
-    'userApi.apps.UserapiConfig'
+    'userApi.apps.UserapiConfig',
+    'api.apps.ApiConfig'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY + LOCAL_APPS
@@ -157,3 +158,5 @@ SIMPLE_JWT = {
 }
 
 AUTH_USER_MODEL = "userApi.UserAccount"
+
+CORS_ORIGIN_ALLOW_ALL = True
