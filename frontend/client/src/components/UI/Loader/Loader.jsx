@@ -5,7 +5,7 @@ import cl from "./Loader.module.css"
 const Loader = () => {
   return (
     <div className={cl.loader}>
-      <MoonLoader color="#f68657" size={60}/>
+      <MoonLoader color="#f68657" size={120}/>
     </div>
   )
 };

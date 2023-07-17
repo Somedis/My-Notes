@@ -11,5 +11,5 @@ drf-writable-nested
 django-constance[database]
 psycopg2-binary==2.9.6
 django-ckeditor
-python-magic-bin
 djangorestframework-simplejwt==5.2.2
+gunicorn
